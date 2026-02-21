@@ -1,0 +1,26 @@
+# Flutter References
+
+- https://flutter.dev
+- https://flutter.dev/learn
+- https://docs.flutter.dev
+- https://docs.flutter.dev/app-architecture/
+- https://docs.flutter.dev/app-architecture/guide
+- https://docs.flutter.dev/ui
+- https://docs.flutter.dev/ui/widgets
+- https://docs.flutter.dev/ui/widgets/material
+- https://docs.flutter.dev/ui/layout
+- https://docs.flutter.dev/ui/layout/tutorial
+- https://docs.flutter.dev/cookbook/design
+- https://docs.flutter.dev/reference
+- https://docs.flutter.dev/reference/widgets
+- https://docs.flutter.dev/testing/overview
+- https://docs.flutter.dev/tools/vs-code
+- https://docs.flutter.dev/packages-and-plugins
+- https://docs.flutter.dev/release/whats-new
+- https://docs.flutter.dev/search
+- https://api.flutter.dev
+- https://github.com/flutter/flutter/wiki/User-documentation-index
+- https://flutter-website-staging.firebaseapp.com/docs/
+- https://chromium.googlesource.com/external/github.com/flutter/flutter/+/beta/dev/docs/README.md
+- https://developers.google.com/learn/pathways/intro-to-flutter
+- https://m3.material.io/develop/flutter

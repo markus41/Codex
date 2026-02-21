@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kodex-plugin-system"
+version = "0.2.0"
+description = "Extensible plugin runtime for Kodex/Codex workflows"
+readme = "docs/plugin-system.md"
+requires-python = ">=3.11"
+authors = [{ name = "Codex Agent" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+  "ruff>=0.6",
+  "mypy>=1.10",
+]
+
+[project.scripts]
+kodex-plugins = "kodex_plugin_system.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+warn_unused_configs = true
