@@ -1,16 +1,18 @@
-# Research Notes: Kodex/Codex Extensibility
+# Research Notes: IaC Mastery Focus for Codex
 
-## Internet access status in this environment
+This repository now emphasizes a cross-stack Infrastructure-as-Code operating model combining:
 
-Attempts to fetch external documentation endpoints returned HTTP 403 from the network boundary, so this implementation uses architecture patterns from established plugin systems and Codex skill conventions already available in the environment.
+- Terraform + OpenTofu for infrastructure declarations.
+- Docker for deterministic IaC execution environments.
+- Kubernetes + Helm for workload orchestration.
+- Vault for secrets lifecycle and runtime credentialing.
+- Red Hat Build of Keycloak/Keycloak for identity and org-aware access patterns.
 
-## Practical conclusion
+## Practical outcome
 
-Even without direct internet fetches, the implemented design aligns with common extension architecture used by modern AI agent platforms:
+The IaC skillset was tuned to encourage:
 
-- Declarative metadata/manifest.
-- Dynamic discovery (local + package entry points).
-- Hook-based event handling.
-- Capability indexing for routing.
-
-These elements are sufficient to create a Codex/Kodex plugin ecosystem that can later be connected to externally documented APIs and marketplaces.
+1. Version-aware, reviewable plan-first workflows.
+2. Policy and security checks as default gates.
+3. Secrets/identity treated as first-class infrastructure concerns.
+4. Reproducible delivery pipelines that minimize drift between environments.
